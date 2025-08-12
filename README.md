@@ -3,8 +3,8 @@ Setup Termux Terminal Mobile
 
 # Install ssh
   pkg update && pkg upgrade -y
-   pkg install openssh -y
-   passwd
+   - pkg install openssh -y
+   - passwd
    ifconfig
    echo "sshd" >> ~/.bashrc
    nano $PREFIX/etc/ssh/sshd_config
